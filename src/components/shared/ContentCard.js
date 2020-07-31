@@ -11,6 +11,11 @@ class ShowcaseCard extends Component {
 
     render() {
 
+        return (
+            <div>
+                
+            </div>
+        );
     }
 }
 

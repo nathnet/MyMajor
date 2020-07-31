@@ -11,6 +11,11 @@ class DescriptionBox extends Component {
 
     render() {
 
+        return (
+            <div>
+                
+            </div>
+        );
     }
 }
 
