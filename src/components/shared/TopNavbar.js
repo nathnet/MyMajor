@@ -29,7 +29,7 @@ class TopNavbar extends Component {
         return (
             <div>
                 <Navbar dark className="primary-color" expand="md">
-                    <NavbarBrand href="/" className="col col-lg-4 col-xl-5">MyMajor</NavbarBrand>
+                    <NavbarBrand href="/" className="offset-xl-1 col col-lg-4 col-xl-5">MyMajor</NavbarBrand>
                     <NavbarToggler onClick={() => this.toggle()} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto navbar container" navbar justified>

@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { NavItem, NavLink, Navbar, Nav } from 'reactstrap';
+import { SvgIcon } from '@material-ui/core';
+import { Facebook, Instagram, Twitter } from '@material-ui/icons';
 
 class Footer extends Component {
 
@@ -11,14 +14,64 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer className="primary-color footer mt-auto py-1">
-                <div className="container">
-                    <div>
-                        <h1 style={{color: '#FFFFFF'}}>Test</h1>
+            <footer className="primary-color footer mt-auto py-5 clearfix">
+                <div className="container-fluid col-10">
+                    <div className="text-white pb-3 mx-auto text-center text-sm-left">
+                        <Navbar dark navbar className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
+                            <Nav navbar className="d-block">
+                                <NavItem className="py-2">
+                                    <NavLink>Major Quiz</NavLink>
+                                </NavItem>
+                                <NavItem className="py-2">
+                                    <NavLink>Class Resources</NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Navbar>
+                        <Navbar dark navbar className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
+                            <Nav navbar className="d-block">
+                                <NavItem className="py-2">
+                                    <NavLink>Contact</NavLink>
+                                </NavItem>
+                                <NavItem className="py-2">
+                                    <NavLink>Creators</NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Navbar>
+                        <Navbar dark navbar className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
+                            <Nav navbar className="d-block">
+                                <NavItem className="py-2">
+                                    <NavLink>FAQ</NavLink>
+                                </NavItem>
+                                <NavItem className="py-2">
+                                    <NavLink>Some other link</NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Navbar>
                     </div>
                     <hr className="bg-white" />
-                    <div>
-                        <h1 style={{color: '#FFFFFF'}}>Test</h1>
+                    <div className="mx-auto px-3 text-center text-sm-left clearfix" style={{}}>
+                        <div className="d-sm-inline-block float-sm-right">
+                            <div className="pr-sm-4 text-center text-sm-right">
+                                <SvgIcon component={Twitter} fontSize="large" className="mx-1 icon" />
+                                <SvgIcon component={Instagram} fontSize="large" className="mx-1 icon" />
+                                <SvgIcon component={Facebook} fontSize="large" className="mx-1 icon" />
+                            </div>
+                            <div className="text-center text-sm-left">
+                                <Navbar className="p-0" dark expand>
+                                    <Nav className="navbar mx-auto pr-0 pr-sm-3 d-block d-sm-flex" navbar>
+                                        <NavItem className="ml-sm-3">
+                                            <NavLink>Contact Us</NavLink>
+                                        </NavItem>
+                                        <NavItem className="ml-sm-3">
+                                            <NavLink>Privacy Policy</NavLink>
+                                        </NavItem>
+                                    </Nav>
+                                </Navbar>
+                            </div>
+                        </div>
+                        <div className="d-sm-inline-block p-2 border border-1 rounded">
+                            <h1 style={{color: '#FFFFFF'}}>LOGO</h1>
+                        </div>
                     </div>
                 </div>
             </footer>
