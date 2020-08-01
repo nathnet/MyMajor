@@ -17,7 +17,7 @@ class Footer extends Component {
             <footer className="primary-color footer mt-auto py-5 clearfix">
                 <div className="container-fluid col-10">
                     <div className="text-white pb-3 mx-auto text-center text-sm-left">
-                        <Navbar dark navbar className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
+                        <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
                                 <NavItem className="py-2">
                                     <NavLink>Major Quiz</NavLink>
@@ -27,7 +27,7 @@ class Footer extends Component {
                                 </NavItem>
                             </Nav>
                         </Navbar>
-                        <Navbar dark navbar className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
+                        <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
                                 <NavItem className="py-2">
                                     <NavLink>Contact</NavLink>
@@ -37,7 +37,7 @@ class Footer extends Component {
                                 </NavItem>
                             </Nav>
                         </Navbar>
-                        <Navbar dark navbar className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
+                        <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
                                 <NavItem className="py-2">
                                     <NavLink>FAQ</NavLink>
