@@ -27,9 +27,9 @@ class TopNavbar extends Component {
     render() {
 
         return (
-            <div>
-                <Navbar dark className="primary-color" expand="md">
-                    <NavbarBrand href="/" className="offset-xl-1 col col-lg-4 col-xl-5">MyMajor</NavbarBrand>
+            <div className="primary-color">
+                <Navbar dark className="container-fluid col-11" expand="md">
+                    <NavbarBrand href="/" className="col col-lg-4 col-xl-5">MyMajor</NavbarBrand>
                     <NavbarToggler onClick={() => this.toggle()} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto navbar container" navbar justified>

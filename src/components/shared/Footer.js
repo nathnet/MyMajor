@@ -49,16 +49,16 @@ class Footer extends Component {
                         </Navbar>
                     </div>
                     <hr className="bg-white" />
-                    <div className="mx-auto px-3 text-center text-sm-left clearfix" style={{}}>
+                    <div className="text-center text-sm-left clearfix" style={{}}>
                         <div className="d-sm-inline-block float-sm-right">
-                            <div className="pr-sm-4 text-center text-sm-right">
-                                <SvgIcon component={Twitter} fontSize="large" className="mx-1 icon" />
-                                <SvgIcon component={Instagram} fontSize="large" className="mx-1 icon" />
-                                <SvgIcon component={Facebook} fontSize="large" className="mx-1 icon" />
+                            <div className="text-center text-sm-right">
+                                <SvgIcon component={Twitter} fontSize="large" className="mx-2 icon" />
+                                <SvgIcon component={Instagram} fontSize="large" className="mx-2 icon" />
+                                <SvgIcon component={Facebook} fontSize="large" className="mx-2 icon" />
                             </div>
                             <div className="text-center text-sm-left">
                                 <Navbar className="p-0" dark expand>
-                                    <Nav className="navbar mx-auto pr-0 pr-sm-3 d-block d-sm-flex" navbar>
+                                    <Nav className="navbar mx-auto pr-0 d-block d-sm-flex" navbar>
                                         <NavItem className="ml-sm-3">
                                             <NavLink>Contact Us</NavLink>
                                         </NavItem>
