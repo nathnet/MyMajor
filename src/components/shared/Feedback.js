@@ -25,8 +25,8 @@ class Feedback extends Component {
                     </div>
                     <div className="d-inline-block px-4 pb-2 col col-xl-9 text-center text-xl-left align-middle">
                         <p className="h4 my-auto">
-                            We use data and feedback from 
-                            <span className="font-weight-bold"> students like you.</span>
+                            We use data and feedback from&nbsp;
+                            <span className="font-weight-bold">students like you.</span>
                         </p>
                         <p>
                             By taking in your experience, 

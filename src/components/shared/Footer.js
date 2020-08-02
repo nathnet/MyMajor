@@ -19,30 +19,30 @@ class Footer extends Component {
                     <div className="text-white pb-3 mx-auto text-center text-sm-left">
                         <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
-                                <NavItem className="py-2">
+                                <NavItem className="py-sm-2">
                                     <NavLink>Major Quiz</NavLink>
                                 </NavItem>
-                                <NavItem className="py-2">
+                                <NavItem className="py-sm-2">
                                     <NavLink>Class Resources</NavLink>
                                 </NavItem>
                             </Nav>
                         </Navbar>
                         <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
-                                <NavItem className="py-2">
+                                <NavItem className="py-sm-2">
                                     <NavLink>Contact</NavLink>
                                 </NavItem>
-                                <NavItem className="py-2">
+                                <NavItem className="py-sm-2">
                                     <NavLink>Creators</NavLink>
                                 </NavItem>
                             </Nav>
                         </Navbar>
                         <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
-                                <NavItem className="py-2">
+                                <NavItem className="py-sm-2">
                                     <NavLink>FAQ</NavLink>
                                 </NavItem>
-                                <NavItem className="py-2">
+                                <NavItem className="py-sm-2">
                                     <NavLink>Some other link</NavLink>
                                 </NavItem>
                             </Nav>
