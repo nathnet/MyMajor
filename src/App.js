@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import TopNavbar from './components/shared/TopNavbar';
 import Footer from './components/shared/Footer';
+import Feedback from './components/shared/Feedback';
 
 class App extends Component {
 
@@ -41,6 +42,7 @@ class App extends Component {
           <br />
           <h2>Test</h2>
         </div>
+        <Feedback />
         <Footer />
       </div>
     );

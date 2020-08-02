@@ -69,7 +69,7 @@ class Footer extends Component {
                                 </Navbar>
                             </div>
                         </div>
-                        <div className="d-sm-inline-block p-2 border border-1 rounded">
+                        <div className="d-sm-inline-block p-2 border border-2 rounded">
                             <h1 style={{color: '#FFFFFF'}}>LOGO</h1>
                         </div>
                     </div>
