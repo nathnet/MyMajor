@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
 import TopNavbar from './components/shared/TopNavbar';
-import Footer from './components/shared/Footer';
-import Feedback from './components/shared/Feedback';
 import DescriptionBox from './components/homepage/DescriptionBox';
+import ContentCard from './components/shared/ContentCard';
+import Feedback from './components/shared/Feedback';
+import Footer from './components/shared/Footer';
 
 class App extends Component {
 
@@ -20,36 +21,25 @@ class App extends Component {
             need to take, which directions you might want to explore, and what your 
             major will lead you in your future. This is the all-in-one place to 
             finding and deciding your classes and majors at UW." />
-        <div className="py-2">
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
-          <br />
-          <h2>Test</h2>
+        <div className="container">
+          <ContentCard 
+            image="./assets/React-icon.png"
+            title="Take Our Majors Quiz"
+            heading="Don't know where to start?" 
+            description="Our major quiz can give you a helping hand on finding out what 
+            your interests can tell you about your possible majors." 
+            colSize="col-md-5" 
+            overlayColor="" />
+          <div className="d-inline-block col-2"></div>
+          <ContentCard 
+            image="./assets/Logos-FeatureImage.png"
+            title="Class Resources"
+            heading="Looking for opportunities and help for the quarter?"
+            description="In our class resources page, find notes, areas, and 
+            opportunities that students like you have found, specific to your 
+            department and major."
+            colSize="col-md-5" 
+            overlayColor="" />
         </div>
         <Feedback />
         <Footer />

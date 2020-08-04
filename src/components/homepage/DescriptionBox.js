@@ -13,7 +13,7 @@ class DescriptionBox extends Component {
     render() {
 
         return (
-            <div className="col-11 col-sm-6 container my-5 py-4">
+            <div className="col-11 col-md-9 col-lg-8 col-xl-6 container my-5 py-4">
                 <p>
                     <span className="font-weight-bold text-theme">{this.state.heading}</span>
                     &nbsp;
