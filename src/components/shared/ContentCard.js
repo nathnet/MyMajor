@@ -21,8 +21,12 @@ class ShowcaseCard extends Component {
         return (
             <div className={`d-md-inline-block ${this.state.colSize}`}>
                 <Card className="border-0">
-                    <div className="position-relative shadow-br embed-responsive embed-responsive-16by9" ref={this.imgRef}>
-                        <CardImg top src={this.state.image} className="d-block embed-responsive-item" />
+                    <div className="position-relative shadow-br embed-responsive embed-responsive-16by9">
+                        <CardImg 
+                            top 
+                            src={this.state.image} 
+                            className="d-block embed-responsive-item hide-overflow-pic" 
+                            alt={this.state.title} />
                         <CardImgOverlay>
                             <CardTitle className="font-weight-bold text-white h4">{this.props.title}</CardTitle>
                         </CardImgOverlay>

@@ -32,6 +32,9 @@
   justify-content: center;
 }
 
+.hide-overflow-pic {
+  object-fit: cover;
+}
 
 .border-1 {
   border-width: 0.125rem !important;
