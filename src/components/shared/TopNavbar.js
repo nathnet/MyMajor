@@ -14,6 +14,8 @@ class TopNavbar extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            bgColor: this.props.bgColor,
+            className: this.props.className,
             isOpen: false
         };
     }
@@ -27,7 +29,7 @@ class TopNavbar extends Component {
     render() {
 
         return (
-            <div className="primary-color">
+            <div className={`${this.state.bgColor} ${this.state.className}`}>
                 <Navbar dark className="container-fluid col-11" expand="md">
                     <NavbarBrand href="/" className="col col-lg-4 col-xl-5">MyMajor</NavbarBrand>
                     <NavbarToggler onClick={() => this.toggle()} />
@@ -52,5 +54,9 @@ class TopNavbar extends Component {
         );
     }
 }
+
+TopNavbar.defaultProps = {
+    bgColor: 'primary-color'
+};
 
 export default TopNavbar;

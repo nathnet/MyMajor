@@ -1,10 +1,10 @@
 /* Primary purple color */
 .primary-color {
-  background-color: #503C93;
+  background-color: #503C93 !important;
 }
 
 .text-theme {
-  color: #503C93;
+  color: #503C93 !important;
 }
 
 .icon {
@@ -13,6 +13,26 @@
 
 .icon:hover {
   opacity: 0.75;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat !important;
+}
+
+.bg-center {
+  background-position: center !important;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.opacity-75 {
+  opacity: 0.75 !important;
+}
+
+.opacity-100 {
+  opacity: 1 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -70,6 +90,22 @@
 .footer .container {
   padding: 1rem 5rem;
   max-width: 90%;
+}
+
+.max-vh-75 {
+  max-height: 75vh !important;
+}
+
+.vh-25 {
+  height: 25vh !important;
+}
+
+.vh-50 {
+  height: 50vh !important;
+}
+
+.vh-75 {
+  height: 75vh !important;
 }
 
 code {

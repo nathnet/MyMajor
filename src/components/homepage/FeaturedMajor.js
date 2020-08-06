@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ShowcaseList extends Component {
+class FeaturedMajor extends Component {
 
     constructor(props) {
         super(props);
@@ -19,4 +19,4 @@ class ShowcaseList extends Component {
     }
 }
 
-export default ShowcaseList;
+export default FeaturedMajor;

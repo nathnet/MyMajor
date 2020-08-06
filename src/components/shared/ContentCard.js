@@ -11,7 +11,7 @@ class ShowcaseCard extends Component {
             title: this.props.title,
             heading: this.props.heading,
             description: this.props.description,
-            colSize: this.props.colSize,
+            className: this.props.className,
             height: 0
         };
     }
@@ -19,9 +19,9 @@ class ShowcaseCard extends Component {
     render() {
 
         return (
-            <div className={`d-md-inline-block ${this.state.colSize}`}>
+            <div className={`d-md-inline-block ${this.state.className}`}>
                 <Card className="border-0">
-                    <div className="position-relative shadow-br embed-responsive embed-responsive-16by9">
+                    <div className="shadow-br embed-responsive embed-responsive-16by9">
                         <CardImg 
                             top 
                             src={this.state.image} 
