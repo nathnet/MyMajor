@@ -23,8 +23,20 @@
   background-position: center !important;
 }
 
+.top {
+  top: 0 !important;
+}
+
+.right {
+  right: 0 !important;
+}
+
 .bottom {
-  bottom: 0;
+  bottom: 0 !important;
+}
+
+.left {
+  left: 0 !important;
 }
 
 .opacity-75 {

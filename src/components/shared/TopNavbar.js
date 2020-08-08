@@ -29,22 +29,24 @@ class TopNavbar extends Component {
     render() {
 
         return (
-            <div className={`${this.state.bgColor} ${this.state.className}`}>
+            <div 
+                className={`${this.state.className}`}
+                style={{ backgroundColor: `${this.state.bgColor}` }}>
                 <Navbar dark className="container-fluid col-11" expand="md">
-                    <NavbarBrand href="/" className="col col-lg-4 col-xl-5">MyMajor</NavbarBrand>
+                    <NavbarBrand href="/" className="">MyMajor</NavbarBrand>
                     <NavbarToggler onClick={() => this.toggle()} />
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto navbar container" navbar justified>
-                            <NavItem>
+                        <Nav className="ml-auto navbar px-md-3 px-lg-4 px-xl-5" navbar>
+                            <NavItem className="px-md-2 px-lg-3 px-xl-4">
                                 <NavLink>Discover Your Major Quiz</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="px-md-2 px-lg-3 px-xl-4">
                                 <NavLink>Class Resources</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="px-md-2 px-lg-3 px-xl-4">
                                 <NavLink>Majors List</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="px-md-2 px-lg-3 px-xl-4">
                                 <NavLink>FAQ</NavLink>
                             </NavItem>
                         </Nav>

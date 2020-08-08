@@ -8,6 +8,9 @@ class NavWithBanner extends Component {
         super(props);
         this.state = {
             alpha: this.props.alpha,
+            bannerDesc: this.props.bannerDesc,
+            bannerHeading: this.props.bannerHeading,
+            bannerTitle: this.props.bannerTitle,
             bgColor: this.props.bgColor,
             bgImg: this.props.bgImg,
         };
@@ -36,8 +39,12 @@ class NavWithBanner extends Component {
                 <div 
                     className="vh-75 mb-5" 
                     style={{ backgroundColor: `${this.hexToRGB(this.state.bgColor, this.state.alpha)}` }}>
-                    <TopNavbar bgColor="bg-transparent" />
-                    <Banner className="position-absolute bottom" />
+                    <TopNavbar bgColor="transparent" />
+                    <Banner 
+                        bannerDesc={this.state.bannerDesc}
+                        bannerHeading={this.state.bannerHeading}
+                        bannerTitle={this.state.bannerTitle}
+                        className="position-absolute bottom" />
                 </div>
             </div>
         );

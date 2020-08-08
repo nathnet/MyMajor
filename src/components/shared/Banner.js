@@ -5,6 +5,9 @@ const Banner = (props) => {
 
     const {
         alpha,
+        bannerDesc,
+        bannerHeading,
+        bannerTitle,
         bgColor,
         bgImg,
         className,
@@ -27,21 +30,23 @@ const Banner = (props) => {
     return (
         <div className="" style={{}}>
             <Jumbotron 
-                className={`w-100 bg-no-repeat bg-center position-relative ${className}`}
+                className={`w-100 bg-no-repeat bg-center ${className} position-relative`}
                 style={{ backgroundImage: `url(${bgImg})`,  backgroundColor: `${hexToRGB(bgColor, alpha)}`}} >
-                <div className="position-absolute bottom pb-5 mb-3">
+                <div className="position-absolute right bottom left pb-5 mb-3">
                     <div 
                         className="col-lg-11 col-xl-10 mx-auto text-white">
                         <div className="col-12 col-sm-10 col-md-8 col-lg-7">
-                            <h1 className="col-12 px-0">Finding your Major Can be Tough</h1>
-                            <p className="h4 font-weight-light">
-                                <span className="font-weight-bolder">
-                                    Let us help you.
-                                </span>
-                                &nbsp;MyMajor.com is a site to help you build your future. Learn 
-                                more about the majors and careers offered at UW and find what path 
-                                is right for you.
-                            </p>
+                            <h1 className="col-12 px-0">{bannerTitle}</h1>
+                            {(bannerDesc || bannerHeading) ? 
+                                <p className="h4 font-weight-light">
+                                    <span className="font-weight-bolder">
+                                        {bannerHeading}
+                                    </span>
+                                    &nbsp;
+                                    {bannerDesc}
+                                </p>
+                                : ''
+                            }
                         </div>
                     </div>
                 </div>
