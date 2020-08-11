@@ -34,7 +34,7 @@ const Banner = (props) => {
                 style={{ backgroundImage: `url(${bgImg})`,  backgroundColor: `${hexToRGB(bgColor, alpha)}`}} >
                 <div className="position-absolute right bottom left pb-5 mb-3">
                     <div 
-                        className="col-lg-11 col-xl-10 mx-auto text-white">
+                        className="col-11 col-lg-10 mx-auto text-white">
                         <div className="col-12 col-sm-10 col-md-8 col-lg-7 px-0">
                             <h1 className="col-12 px-0">{bannerTitle}</h1>
                             {(bannerDesc || bannerHeading) ? 

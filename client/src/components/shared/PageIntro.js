@@ -13,7 +13,7 @@ class PageIntro extends Component {
     render() {
 
         return (
-            <div className="col-10 my-5 py-4 mx-auto">
+            <div className="col-11 col-lg-10 my-5 py-4 mx-auto">
                 <p className="h4 font-weight-bold text-theme">
                     {this.state.heading}
                 </p>
