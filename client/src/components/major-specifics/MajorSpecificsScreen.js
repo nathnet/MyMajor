@@ -13,14 +13,12 @@ class MajorSpecificsScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: this.props.major.major,
             major: this.props.major
         };
     }
 
     render() {
         const major = this.state.major;
-        const majorName = this.state.name.charAt(0).toUpperCase() + this.state.name.slice(1);
 
         const prereqs = <Prereqs content={major.prereqs} />;
         const careerPaths = <CareerPaths content={major.careers} />;
@@ -32,7 +30,7 @@ class MajorSpecificsScreen extends Component {
         return (
             <React.Fragment>
                 <NavWithBanner
-                    bannerTitle={majorName}
+                    bannerTitle={major.major}
                     bgImg="../assets/React-icon.png" />
                 <div className="row col-11 col-lg-10 mx-auto">
                     <div className="col-12 col-md-6 col-lg-5 ml-lg-auto">

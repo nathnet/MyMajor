@@ -21,7 +21,7 @@ class App extends Component {
   render() {
 
     const specifiedMajor = ({ match }) => {
-      const specificMajor = this.state.majors.filter((majorName) => majorName.major === match.params.major)[0];
+      const specificMajor = this.state.majors.filter((majorName) => majorName.major.toLowerCase() === match.params.major)[0];
 
       return(
         !specificMajor ? <Route component={HomeScreen} /> : <MajorSpecificsScreen major={specificMajor} />

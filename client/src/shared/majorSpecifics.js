@@ -1,6 +1,7 @@
 export const MAJOR_SPECIFICS = [
     {
-        "major": "psychology",
+        "major": "Psychology",
+        "category": "Social Sciences",
         "prereqs": {
             "announcement": "Admission Deadline: 10:00 PM, Second Friday of Each Quarter",
             "minGPA": "2.0",
