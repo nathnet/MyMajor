@@ -31,11 +31,11 @@ class TopNavbar extends Component {
 
         return (
             <div 
-                className={`${this.state.className}`}
+                className={`position-relative z-10000 ${this.state.className}`}
                 style={{ backgroundColor: `${this.state.bgColor}` }}>
                 <Navbar dark className="container-fluid col-11 align-items-start" expand="md">
                     <NavbarBrand tag={RRNavLink} to="/">
-                        <img src="./assets/LogoWhite.png" alt="Logo" className="logo logo-lg logo-xl" />
+                        <img src={require("../../assets/LogoWhite.png")} alt="Logo" className="logo logo-lg logo-xl" />
                     </NavbarBrand>
                     <NavbarToggler onClick={() => this.toggle()} />
                     <Collapse isOpen={this.state.isOpen} navbar>
@@ -61,7 +61,7 @@ class TopNavbar extends Component {
 }
 
 TopNavbar.defaultProps = {
-    bgColor: 'bg-primary-color'
+    bgColor: 'bg-theme'
 };
 
 export default TopNavbar;

@@ -17,7 +17,7 @@ class PageIntro extends Component {
                 <p className="h4 font-weight-bold text-theme">
                     {this.state.heading}
                 </p>
-                <hr className="bg-primary-color short-line-break m-0" />
+                <hr className="bg-theme short-line-break m-0" />
                 <p className="py-2">
                     {this.state.content}
                 </p>

@@ -1,6 +1,10 @@
 /* Primary purple color */
-.bg-primary-color {
+.bg-theme {
   background-color: #503C93 !important;
+}
+
+.bg-gray {
+  background-color: #E7E7E7 !important;
 }
 
 .text-theme {
@@ -31,9 +35,40 @@
   opacity: 0.75;
 }
 
+.text-circle {
+  height: 1.5em;
+  width: 1.5em;
+  line-height: 1.5em;
+  box-sizing: content-box;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-vstretch {
+  transform: scale(1, 1.25);
+  -webkit-transform: scale(1, 1.25);
+  -moz-transform: scale(1, 1.25);
+  -ms-transform: scale(1, 1.25);
+  -o-transform: scale(1, 1.25);
+}
+
+@media (min-width: 768px) {
+  .h1-md {
+    font-size: 2.5rem;
+  }
+
+  .h4-md {
+    font-size: 1.5rem;
+  }
+}
+
 .short-line-break {
   height: 5px;
   width: 65px;
+}
+
+.z-10000 {
+  z-index: 10000;
 }
 
 .bg-no-repeat {

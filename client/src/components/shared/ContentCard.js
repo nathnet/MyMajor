@@ -14,7 +14,6 @@ class ShowcaseCard extends Component {
             heading: this.props.heading,
             description: this.props.description,
             className: this.props.className,
-            height: 0
         };
     }
 

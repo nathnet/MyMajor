@@ -28,17 +28,17 @@ const Banner = (props) => {
     }
 
     return (
-        <div className="" style={{}}>
+        <div className="">
             <Jumbotron 
                 className={`w-100 bg-no-repeat bg-center ${className} position-relative`}
                 style={{ backgroundImage: `url(${bgImg})`,  backgroundColor: `${hexToRGB(bgColor, alpha)}`}} >
-                <div className="position-absolute right bottom left pb-5 mb-3">
+                <div className="position-absolute right bottom left pb-0 pb-lg-5 mb-3">
                     <div 
                         className="col-11 col-lg-10 mx-auto text-white">
                         <div className="col-12 col-sm-10 col-md-8 col-lg-7 px-0">
-                            <h1 className="col-12 px-0">{bannerTitle}</h1>
+                            <p className="col-12 h3 h1-md px-0">{bannerTitle}</p>
                             {(bannerDesc || bannerHeading) ? 
-                                <p className="h4 font-weight-light">
+                                <p className="h5 h4-md font-weight-light">
                                     <span className="font-weight-bolder">
                                         {bannerHeading}
                                     </span>

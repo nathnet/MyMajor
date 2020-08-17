@@ -12,8 +12,8 @@ class Feedback extends Component {
     render() {
 
         return (
-            <div className="col-8 border border-1 border-theme shadow-br mx-auto my-5">
-                <div className="container col col-md-11 py-3 text-theme align-middle">
+            <div className="col-10 col-md-8 px-0 px-lg-3 border border-1 border-theme shadow-br mx-auto my-5">
+                <div className="container col col-md-11 px-0 px-lg-3 py-3 text-theme align-middle">
                     <div className="d-inline-block col col-xl-auto px-2">
                         <div className="d-flex justify-content-center">
                             <div className="d-inline-block">

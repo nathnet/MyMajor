@@ -6,11 +6,27 @@ import MajorSpecificsScreen from './components/major-specifics/MajorSpecificsScr
 import MajorQuizScreen from './components/major-quiz/MajorQuizScreen';
 import ResourcesScreen from './components/resources/ResourcesScreen';
 import Footer from './components/shared/Footer';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { MAJOR_SPECIFICS } from './shared/majorSpecifics';
 
 class App extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      majors: MAJOR_SPECIFICS
+    }
+  }
+
   render() {
+
+    const specifiedMajor = ({ match }) => {
+      const specificMajor = this.state.majors.filter((majorName) => majorName.major === match.params.major)[0];
+
+      return(
+        !specificMajor ? <Route component={HomeScreen} /> : <MajorSpecificsScreen major={specificMajor} />
+      );
+    }
 
     return (
       <BrowserRouter>
@@ -18,7 +34,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={HomeScreen} />
               <Route exact path="/majors" component={MajorsListScreen} />
-              <Route path="/majors/:majorId" component={MajorSpecificsScreen} />
+              <Route path="/majors/:major" component={specifiedMajor} />
               <Route exact path="/major-quiz" component={MajorQuizScreen} />
               <Route exact path="/resources" component={ResourcesScreen} />
             </Switch>
