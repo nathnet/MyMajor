@@ -11,6 +11,10 @@
   color: #503C93 !important;
 }
 
+.text-black {
+  color: #000 !important;
+}
+
 .logo {
   height: 85px;
 }
@@ -65,6 +69,10 @@
 .short-line-break {
   height: 5px;
   width: 65px;
+}
+
+.line-break {
+  height: 5px;
 }
 
 .z-10000 {
