@@ -1334,6 +1334,9 @@ export const MAJOR_SPECIFICS = [
         "category": [
             "Computing"
         ],
+        "options": [
+
+        ],
         "prereqs": {
             "announcement": "",
             "minGPA": "",
@@ -2584,6 +2587,10 @@ export const MAJOR_SPECIFICS = [
         "category": [
             "Computing"
         ],
+        "options": [
+            "capacityConstrained",
+            "minorAvailable"
+        ],
         "prereqs": {
             "announcement": "",
             "minGPA": "",
@@ -2934,6 +2941,9 @@ export const MAJOR_SPECIFICS = [
         "major": "Latin",
         "category": [
             "Language and Literature"
+        ],
+        "options": [
+            "minorAvailable"
         ],
         "prereqs": {
             "announcement": "",
