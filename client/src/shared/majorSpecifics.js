@@ -3833,6 +3833,9 @@ export const MAJOR_SPECIFICS = [
         "category": [
             "Social Sciences"
         ],
+        "options": [
+            "capacityConstrained"
+        ],
         "prereqs": {
             "announcement": "Admission Deadline: 10:00 PM, Second Friday of Each Quarter",
             "minGPA": "2.0",

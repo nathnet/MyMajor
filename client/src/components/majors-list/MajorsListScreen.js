@@ -9,15 +9,43 @@ class MajorsListScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            active: [],
             list: this.props.list
         }
     }
 
     render() {
 
+        const toggleActive = (id) => {
+            let array = this.state.active;
+            
+            if (!array.includes(id)) {
+                array.push(id);
+            } else {
+                let pos = array.indexOf(id);
+                array.splice(pos, 1);
+            }
+
+            this.setState({
+                active: array
+            });
+        }
+
         const list = (props) => {
-            const specificList = this.state.list.filter((majorName) => 
+            let specificList = this.state.list.filter((majorName) => 
                 majorName.category.includes(props));
+
+            for (let i = 0; i < this.state.active.length; i++) {
+                specificList = specificList.filter((majorName) => {
+                    return(
+                        majorName.hasOwnProperty("options") ? 
+                        (
+                            majorName.options.includes(this.state.active[i]) ?
+                            majorName : ""
+                        ) : ""
+                    );
+                });
+            }
 
             return(
                 specificList
@@ -35,7 +63,7 @@ class MajorsListScreen extends Component {
                         But what majors UW offers can be a tricky subject. Here you'll find 
                         every major that UW has to offer and can easily sort and see what 
                         majors might pique your interest." />
-                <SortBar />
+                <SortBar handleClick={toggleActive} />
                 <div className="col-11 col-lg-10 my-4 py-1 mx-auto">
                     <MajorCategory category="The Arts" majors={list("The Arts")} />
                     <MajorCategory category="Biological and Environmental Sciences" majors={list("Biological and Environmental Sciences")} />

@@ -26,6 +26,7 @@ const MajorCategory = (props) => {
     }
 
     return(
+        majors.length > 0 ?
         <div className="d-inline-block col-12 col-md-6 px-0 py-3 align-top">
             <div className="col-12 col-md-11">
                 <div type="button" onClick={toggle}>
@@ -41,6 +42,7 @@ const MajorCategory = (props) => {
                 </Collapse>
             </div>
         </div>
+        : ""
     );
 }
 
