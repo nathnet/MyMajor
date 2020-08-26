@@ -20,9 +20,9 @@ class RelStudies extends Component {
                             {rank + 1}
                         </p>
                     </span>
-                    <span className="offset-2 font-weight-bolder">
+                    <div className="d-inline-block px-0 offset-2 col-8 font-weight-bolder align-middle">
                         {major}
-                    </span>
+                    </div>
                 </div> : ""
             );
         });
