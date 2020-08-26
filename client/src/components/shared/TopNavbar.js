@@ -61,7 +61,7 @@ class TopNavbar extends Component {
 }
 
 TopNavbar.defaultProps = {
-    bgColor: 'bg-theme'
+    bgColor: '#503C93'
 };
 
 export default TopNavbar;

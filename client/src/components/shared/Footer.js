@@ -15,7 +15,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer className="bg-theme footer mt-5 py-5 clearfix">
+            <footer className="bg-theme footer py-5 clearfix">
                 <div className="container-fluid col-10">
                     <div className="text-white pb-3 mx-auto text-center text-sm-left">
                         <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">

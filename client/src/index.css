@@ -7,6 +7,10 @@
   background-color: #E7E7E7 !important;
 }
 
+.bg-fit {
+  background-size: contain;
+}
+
 .text-theme {
   color: #503C93 !important;
 }
@@ -37,6 +41,39 @@
 
 .icon:hover {
   opacity: 0.75;
+}
+
+.icon-size {
+  height: 5em;
+  width: auto;
+}
+
+@media (min-width: 576px) {
+  .icon-size {
+    height: 3em;
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon-size {
+    height: 2em;
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-size {
+    height: 3em;
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icon-size {
+    height: 5em;
+    width: auto;
+  }
 }
 
 .text-circle {
@@ -87,6 +124,28 @@
   background-position: center !important;
 }
 
+.partial .collapse:not(.show) {
+  display: block;
+  --line-height: 1.5em;
+  height: calc(var(--line-height) * 3);
+  overflow: hidden;
+}
+
+.partial div.collapsed:after {
+  content: "arrow down";
+}
+
+.partial div.collapsed.show:after {
+  content: "arrow up";
+}
+
+.partial .collapsing {
+  --line-height: 1.5em;
+  height: calc(var(--line-height) * 3);
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
 .top {
   top: 0 !important;
 }
@@ -122,10 +181,13 @@
   bottom: 0;
   left: 0;
   padding: 1.25rem;
-  background-color: rgba(80, 60, 147, 0.75);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card-img-overlay-theme {
+  background-color: rgba(80, 60, 147, 0.75);
 }
 
 .option {

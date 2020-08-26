@@ -20,7 +20,7 @@ const ContentCard = (props) => {
                         src={image} 
                         className="d-block embed-responsive-item hide-overflow-pic" 
                         alt={title} />
-                    <CardImgOverlay>
+                    <CardImgOverlay className="card-img-overlay-theme">
                         <CardTitle className="font-weight-bold text-white h4">{title}</CardTitle>
                     </CardImgOverlay>
                 </div>

@@ -1060,23 +1060,37 @@ export const MAJOR_SPECIFICS = [
             "Social Sciences"
         ],
         "prereqs": {
-            "announcement": "",
-            "minGPA": "",
-            "personalStatement": "",
-            "transcript": "",
-            "classes": ""
+            "announcement": "Admission Deadline: 5:00 PM, two weeks (14 calendar days) after the first day of the quarter.",
+            "minPreReqGPA": "2.5",
+            "minGPA": "2.5",
+            "averageGPA": "3.5",
+            "personalStatement": "Required",
+            "transcript": "Required",
+            "classes": "COM 200 and another COM 200-level course."
         },
         "careers": [
-            "",
-            ""
+            "Journalist",
+            "Advocate",
+            "Public Relations Specialist",
+            "Career Adviser",
+            "Counselor",
+            "Life Coach",
+            "Teacher",
+            "Human Resource Worker",
+            "Market Researcher",
+            "Event Planner",
+            "Project Manager",
+            "Social Media Manager",
+            "Business Reporter",
+            "Sales Representative"
         ],
         "classInfo": {
             "averageDifficulty": "",
             "averageGPA": ""
         },
         "studentDetails": {
-            "undergrad": "",
-            "doctoral": ""
+            "undergrad": "711",
+            "doctoral": "12"
         },
         "faculty": {
             "studentRatio": "",
@@ -1086,11 +1100,21 @@ export const MAJOR_SPECIFICS = [
             "researchAssociateProfs": "",
             "assistantProfs": "",
             "principalLecturers": "",
-            "EmeritusFaculty": ""
+            "emeritusFaculty": ""
         },
         "relStudies": [
-            "",
-            ""
+            "Sociology",
+            "Social Welfare",
+            "Education",
+            "Business Administration",
+            "Anthropology",
+            "Political Science",
+            "International Studies",
+            "Gender, Women, and Sexuality Studies",
+            "American Ethnic Studies",
+            "Integrated Social Sciences",
+            "Law, Societies, and Justice",
+            "Philosophy"
         ]
     },
     {
