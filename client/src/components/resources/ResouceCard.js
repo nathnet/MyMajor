@@ -41,13 +41,13 @@ const ResourceCard = (props) => {
                     </CardImgOverlay>
                 </div>
                 <CardBody className="bg-gray px-0 partial">
-                    <Collapse className="px-4 text-black" id={title.toLowerCase()} in={isOpen}>
+                    <Collapse className="px-4 mb-1 text-black" id={title.toLowerCase()} in={isOpen}>
                         <ul className="mb-0">
                             {renderList}
                         </ul>
                     </Collapse>
                     <div 
-                        className={`collapsed text-center${isOpen ? " show" : ""}`}
+                        className={`collapsed${isOpen ? " show" : ""}`}
                         type="button"
                         onClick={toggle}
                         >
