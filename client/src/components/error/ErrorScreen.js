@@ -16,8 +16,8 @@ class ResourcesScreen extends Component {
                             src={require("../../assets/404_dino.jpg")} 
                             alt="error image" />
                     </div>
-                    <div className="d-inline-block col-12 col-md-6 align-middle">
-                        <div className="col-12 col-sm-11 pb-5 mb-5 pb-md-0 mb-md-0 mx-auto">
+                    <div className="d-inline-block col-12 col-md-6 pb-lg-5 mb-lg-5 align-middle">
+                        <div className="col-12 col-sm-11 pb-5 mb-5 mx-auto">
                             <div className="py-4 h1 text-theme font-weight-bold">
                                 PAGE NOT FOUND
                             </div>
