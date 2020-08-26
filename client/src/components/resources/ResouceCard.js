@@ -33,7 +33,7 @@ const ResourceCard = (props) => {
                 <div className="bg-theme text-center py-3 embed-responsive embed-responsive-21by9">
                     <CardImgOverlay className="p-3 embed-responsive-item">
                         <div>
-                            <CardImg className="icon-size" src={image} />
+                            <CardImg className="icon-size" src={image} alt={`${title.toLowerCase()} icon`} />
                             <CardTitle className="font-weight-normal text-white h5 py-1 mb-0">
                                 {title.toUpperCase()}
                             </CardTitle>
