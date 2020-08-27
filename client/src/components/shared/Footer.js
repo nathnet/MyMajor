@@ -55,15 +55,15 @@ class Footer extends Component {
                             <div className="text-center text-sm-right">
                                 <a href="https://www.twitter.com">
                                     <span className="text-hide">Twitter</span>
-                                    <SvgIcon component={Twitter} fontSize="large" className="mx-2 icon" />
+                                    <SvgIcon component={Twitter} fontSize="large" className="mx-2 icon text-white" />
                                 </a>
                                 <a href="https://www.instagram.com">
                                     <span className="text-hide">Instagram</span>
-                                    <SvgIcon component={Instagram} fontSize="large" className="mx-2 icon" />
+                                    <SvgIcon component={Instagram} fontSize="large" className="mx-2 icon text-white" />
                                 </a>
                                 <a href="https://www.facebook.com">
                                     <span className="text-hide">Facebook</span>
-                                    <SvgIcon component={Facebook} fontSize="large" className="mx-2 icon" />
+                                    <SvgIcon component={Facebook} fontSize="large" className="mx-2 icon text-white" />
                                 </a>
                             </div>
                             <div className="text-center text-sm-left">

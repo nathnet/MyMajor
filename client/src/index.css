@@ -40,11 +40,11 @@
 }
 
 .icon {
-  color: #FFFFFF;
+  opacity: 1;
 }
 
 .icon:hover {
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 .icon-size {
@@ -233,6 +233,10 @@
 
 .border-theme {
   border-color: #503C93 !important;
+}
+
+.border-theme-light {
+  border-color: rgba(80, 60, 147, 0.5) !important;
 }
 
 .shadow-br {
