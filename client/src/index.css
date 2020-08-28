@@ -115,7 +115,7 @@
 
 @media (min-width: 768px) {
   .font-size-background {
-    font-size: 20vw !important;
+    font-size: 23vw !important;
   }
 
   .h1-md {
@@ -127,26 +127,62 @@
   }
 }
 
+@media (min-width: 992px) {
+  .font-size-background {
+    font-size: 22vw !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .font-size-background {
+    font-size: 21vw !important;
+  }
+}
+
 .custom-control-label-quiz label {
   left: -1.5rem;
-  font-size: 2rem;
-  padding-left: 4rem;
+  font-size: 1.2rem;
+  padding-left: 2.5rem;
 }
 
 .custom-control-label-quiz label:before {
   left: 0rem;
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .custom-control-label-quiz label:after {
   left: 0rem;
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-  background-size: 2.5rem;
+  background-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  .custom-control-label-quiz label {
+    left: -1.5rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+  }
+  
+  .custom-control-label-quiz label:before {
+    left: 0rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .custom-control-label-quiz label:after {
+    left: 0rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-size: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {

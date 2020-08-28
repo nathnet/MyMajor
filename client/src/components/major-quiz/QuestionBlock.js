@@ -14,13 +14,14 @@ const QuestionBlock = (props) => {
                     <div className="line-height-small font-size-background font-weight-bold text-theme-very-light pb-3">
                         {index + 1}
                     </div>
-                    <div className="h1-md h4 card-img-overlay justify-content-start align-items-end py-sm-4 py-lg-5">
+                    <div className={"h1-md h4 card-img-overlay justify-content-start align-items-end " +
+                        "px-1 px-md-2 py-sm-4 py-lg-5"}>
                         {question.question}
                     </div>
                 </div>
-                <div className="d-inline-block col-12 col-md-6 pl-5 py-2 align-top">
+                <div className="d-inline-block col-12 col-md-6 pl-5 pt-0 pb-2 align-top">
                     <FormGroup>
-                        <Label size="lg">
+                        <Label className="pt-0" size="lg">
                             {question.type === "checkbox" ? 
                             "Check all that apply" :
                             "Check the answer that is closest to you"}
