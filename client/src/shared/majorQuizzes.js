@@ -4,6 +4,7 @@ export const QUIZZES = [
         "questions": [
             {
                 "question": "What am I?",
+                "type": "checkbox",
                 "answers": [
                     "Angelime",
                     "Justin",
@@ -13,6 +14,7 @@ export const QUIZZES = [
             },
             {
                 "question": "What do I do?",
+                "type": "radio",
                 "answers": [
                     "Design",
                     "Project Management",

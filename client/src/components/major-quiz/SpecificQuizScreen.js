@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavWithBanner from '../shared/NavWithBanner';
 import PageIntro from '../shared/PageIntro';
+import QuestionBlock from './QuestionBlock';
 
 class SpecificQuizScreen extends Component {
 
@@ -16,7 +17,7 @@ class SpecificQuizScreen extends Component {
             <React.Fragment>
                 <NavWithBanner
                     bannerTitle="Major Quiz"
-                    bgImg="./assets/React-icon.png" />
+                    bgImg="../assets/React-icon.png" />
                 <PageIntro
                     heading="Helping You Find Your Major"
                     content="Share a little bit about yourself and let our quiz find what majors 
@@ -25,7 +26,7 @@ class SpecificQuizScreen extends Component {
                         be yours and which ones are definitely outside your interest. When 
                         you’re not sure about what path to take, this quiz is your guide to 
                         crafting your Husky future." />
-                {console.log(this.state.quiz)}
+                <QuestionBlock quiz={this.state.quiz} />
             </React.Fragment>
         );
     }

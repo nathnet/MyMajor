@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import NavWithBanner from '../shared/NavWithBanner';
-import DescriptionBox from '../shared/DescriptionBox';
+import DescriptionBlock from '../shared/DescriptionBlock';
 import ContentCard from '../shared/ContentCard';
 import Feedback from '../shared/Feedback';
 import FeaturedMajor from './FeaturedMajor';
@@ -18,7 +18,7 @@ class HomeScreen extends Component {
                     bannerHeading="Let us help you."
                     bannerTitle="Finding your Major Can be Tough"
                     bgImg="./assets/React-icon.png" />    
-                <DescriptionBox 
+                <DescriptionBlock 
                     heading="We get it." 
                     content="Knowing what classes to take and what career to pursue can be hard.
                         This site is a resource for finding out what interests you and what majors 

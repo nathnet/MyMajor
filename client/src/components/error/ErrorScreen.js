@@ -13,8 +13,8 @@ class ResourcesScreen extends Component {
                     <div className="d-inline-block col-12 col-md-6 p-0 h-100 align-middle">
                         <img 
                             className="w-100 pb-md-5 mb-lg-2 mb-xl-4" 
-                            src={require("../../assets/404_dino.jpg")} 
-                            alt="error image" />
+                            src={require("../../assets/404_dino.png")} 
+                            alt="error dino" />
                     </div>
                     <div className="d-inline-block col-12 col-md-6 pb-lg-5 mb-lg-5 align-middle">
                         <div className="col-12 col-sm-11 pb-5 mb-5 mx-auto">

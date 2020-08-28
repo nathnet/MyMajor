@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import NavWithBanner from '../shared/NavWithBanner';
 import PageIntro from '../shared/PageIntro';
-import QuizCategoryBox from './QuizCategoryBox';
+import QuizCategoryBlock from './QuizCategoryBlock';
         
 class MajorQuizScreen extends Component {
 
@@ -23,47 +23,47 @@ class MajorQuizScreen extends Component {
                     I am most interested in:
                 </div>
                 <div className="col-11 col-lg-10 h3 py-2 my-4 mx-auto">
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="The Arts"
                         className="col-12 col-md-6"
                         float="float-md-left"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Biological and Environmental Sciences"
                         className="col-12 col-md-6"
                         float="float-md-right"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Business"
                         className="col-12 col-md-6"
                         float="float-md-left"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Computing"
                         className="col-12 col-md-6"
                         float="float-md-right"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Engineering"
                         className="col-12 col-md-6"
                         float="float-md-left"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Health Sciences"
                         className="col-12 col-md-6"
                         float="float-md-right"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Language and Literature"
                         className="col-12 col-md-6"
                         float="float-md-left"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Math"
                         className="col-12 col-md-6"
                         float="float-md-right"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Physical Sciences"
                         className="col-12 col-md-6"
                         float="float-md-left"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="Social Sciences"
                         className="col-12 col-md-6"
                         float="float-md-right"/>
-                    <QuizCategoryBox
+                    <QuizCategoryBlock
                         category="I'm not sure"
                         className="col-12"
                         link="general"/>

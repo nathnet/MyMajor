@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink as RRNavLink } from 'react-router-dom';
 
-const QuizCategoryBox = (props) => {
+const QuizCategoryBlock = (props) => {
 
     const {
         category,
@@ -25,4 +25,4 @@ const QuizCategoryBox = (props) => {
     );
 }
 
-export default QuizCategoryBox;
+export default QuizCategoryBlock;

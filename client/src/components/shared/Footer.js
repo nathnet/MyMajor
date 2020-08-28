@@ -80,9 +80,9 @@ class Footer extends Component {
                             </div>
                         </div>
                         <Link to="/">
-                            <div className="d-sm-inline-block p-2 border border-2 rounded">
-                                <h1 style={{color: '#FFFFFF'}}>LOGO</h1>
-                            </div>
+                            <img 
+                                src={require("../../assets/LogoWhite.png")}
+                                alt="Logo" className="logo-footer" />
                         </Link>
                     </div>
                 </div>

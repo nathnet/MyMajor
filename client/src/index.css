@@ -19,6 +19,10 @@
   color: #503C93 !important;
 }
 
+.text-theme-very-light {
+  color: rgba(80, 60, 147, 0.25) !important;
+}
+
 .text-black {
   color: #000 !important;
 }
@@ -37,6 +41,10 @@
   .logo-xl {
     height: 150px;
   }
+}
+
+.logo-footer {
+  height: 5rem;
 }
 
 .icon {
@@ -97,7 +105,19 @@
   -o-transform: scale(1, 1.25);
 }
 
+.font-size-background {
+  font-size: 25vw !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
 @media (min-width: 768px) {
+  .font-size-background {
+    font-size: 20vw !important;
+  }
+
   .h1-md {
     font-size: 2.5rem;
   }
@@ -105,6 +125,105 @@
   .h4-md {
     font-size: 1.5rem;
   }
+}
+
+.custom-control-label-quiz label {
+  left: -1.5rem;
+  font-size: 2rem;
+  padding-left: 4rem;
+}
+
+.custom-control-label-quiz label:before {
+  left: 0rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-control-label-quiz label:after {
+  left: 0rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .custom-control-label-quiz label {
+    left: -1.5rem;
+    font-size: 1.2rem;
+    padding-left: 2.5rem;
+  }
+  
+  .custom-control-label-quiz label:before {
+    left: 0rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .custom-control-label-quiz label:after {
+    left: 0rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-control-label-quiz label {
+    left: -1.5rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+  }
+  
+  .custom-control-label-quiz label:before {
+    left: 0rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .custom-control-label-quiz label:after {
+    left: 0rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-control-label-quiz label {
+    left: -1.5rem;
+    font-size: 2rem;
+    padding-left: 4rem;
+  }
+  
+  .custom-control-label-quiz label:before {
+    left: 0rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .custom-control-label-quiz label:after {
+    left: 0rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-size: 2.5rem;
+  }
+}
+
+.btn-xl {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
 }
 
 .short-line-break {
@@ -116,8 +235,8 @@
   height: 5px;
 }
 
-.font-weight-500 {
-  font-weight: 500 !important;
+.line-height-small {
+  line-height: 1;
 }
 
 .z-10000 {
@@ -237,6 +356,16 @@
 
 .border-theme-light {
   border-color: rgba(80, 60, 147, 0.5) !important;
+}
+
+.border-black {
+  border-color: #000 !important;
+}
+
+@media (min-width: 768px) {
+  .border-md-right {
+    border-right: 1px solid;
+  }
 }
 
 .shadow-br {

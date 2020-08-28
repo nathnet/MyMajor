@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class DescriptionBox extends Component {
+class DescriptionBlock extends Component {
 
     constructor(props) {
         super(props);
@@ -24,4 +24,4 @@ class DescriptionBox extends Component {
     }
 }
 
-export default DescriptionBox;
+export default DescriptionBlock;
