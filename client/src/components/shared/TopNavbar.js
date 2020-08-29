@@ -35,14 +35,14 @@ class TopNavbar extends Component {
                 className={`position-relative z-10000 ${this.state.className}`}
                 style={{ backgroundColor: `${this.state.bgColor}` }}>
                 <Navbar 
-                    className={`container-fluid col-11 align-items-start ${this.state.dark ? "navbar-dark" : "navbar-light"}`}
+                    className={`container-fluid col-12 col-md-11 px-0 align-items-start ${this.state.dark ? "navbar-dark" : "navbar-light"}`}
                     expand="md">
                     <NavbarBrand tag={RRNavLink} to="/">
                         <img 
                             src={this.state.dark ? require("../../assets/LogoWhite.png") : require("../../assets/LogoColor.png")}
-                            alt="Logo" className="logo logo-lg logo-xl" />
+                            alt="Logo" className="logo logo-lg logo-xl pl-3" />
                     </NavbarBrand>
-                    <NavbarToggler onClick={() => this.toggle()} />
+                    <NavbarToggler onClick={() => this.toggle()} className="mr-3" />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto navbar px-md-3 px-lg-4 px-xl-5" navbar>
                             <NavItem className="px-md-2 px-lg-3 px-xl-4">

@@ -349,6 +349,16 @@
   color: rgba(80, 60, 147, 1)
 }
 
+.navbar-collapse {
+  background-color: rgb(124, 109, 174);
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    background-color: transparent;
+  }
+}
+
 .card-img-overlay {
   position: absolute;
   top: 0;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavItem, NavLink, Navbar, Nav } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { NavLink as RRNavLink } from 'react-router-dom';
 import { SvgIcon } from '@material-ui/core';
 import { Facebook, Instagram, Twitter } from '@material-ui/icons';
 
@@ -21,30 +21,30 @@ class Footer extends Component {
                         <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
                                 <NavItem className="py-sm-2">
-                                    <NavLink tag={Link} to="/major-quiz">Major Quiz</NavLink>
+                                    <NavLink tag={RRNavLink} to="/major-quiz">Major Quiz</NavLink>
                                 </NavItem>
                                 <NavItem className="py-sm-2">
-                                    <NavLink tag={Link} to="/resources">Class Resources</NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Navbar>
-                        <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
-                            <Nav navbar className="d-block">
-                                <NavItem className="py-sm-2">
-                                    <NavLink tag={Link} to="">Contact</NavLink>
-                                </NavItem>
-                                <NavItem className="py-sm-2">
-                                    <NavLink tag={Link} to="">Creators</NavLink>
+                                    <NavLink tag={RRNavLink} to="/resources">Class Resources</NavLink>
                                 </NavItem>
                             </Nav>
                         </Navbar>
                         <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
                             <Nav navbar className="d-block">
                                 <NavItem className="py-sm-2">
-                                    <NavLink tag={Link} to="">FAQ</NavLink>
+                                    <NavLink tag={RRNavLink} to="/contact" disabled>Contact</NavLink>
                                 </NavItem>
                                 <NavItem className="py-sm-2">
-                                    <NavLink tag={Link} to="">Some other link</NavLink>
+                                    <NavLink tag={RRNavLink} to="/creators" disabled>Creators</NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Navbar>
+                        <Navbar dark className="d-inline-block py-0 px-lg-5 col col-sm-4 col-xl-3">
+                            <Nav navbar className="d-block">
+                                <NavItem className="py-sm-2">
+                                    <NavLink tag={RRNavLink} to="/faq">FAQ</NavLink>
+                                </NavItem>
+                                <NavItem className="py-sm-2">
+                                    <NavLink tag={RRNavLink} to="/links" disabled>Some other link</NavLink>
                                 </NavItem>
                             </Nav>
                         </Navbar>
@@ -70,20 +70,20 @@ class Footer extends Component {
                                 <Navbar className="p-0" dark expand>
                                     <Nav className="navbar mx-auto pr-0 d-block d-sm-flex" navbar>
                                         <NavItem className="ml-sm-3">
-                                            <NavLink tag={Link} to="">Contact Us</NavLink>
+                                            <NavLink tag={RRNavLink} to="/contact" disabled>Contact Us</NavLink>
                                         </NavItem>
                                         <NavItem className="ml-sm-3">
-                                            <NavLink tag={Link} to="">Privacy Policy</NavLink>
+                                            <NavLink tag={RRNavLink} to="/privacy-policy" disabled>Privacy Policy</NavLink>
                                         </NavItem>
                                     </Nav>
                                 </Navbar>
                             </div>
                         </div>
-                        <Link to="/">
+                        <RRNavLink to="/">
                             <img 
                                 src={require("../../assets/LogoWhite.png")}
                                 alt="Logo" className="logo-footer" />
-                        </Link>
+                        </RRNavLink>
                     </div>
                 </div>
             </footer>
