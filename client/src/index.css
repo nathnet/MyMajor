@@ -358,7 +358,8 @@
 }
 
 @media (min-width: 768px) {
-  .navbar-collapse {
+  .navbar-dark .navbar-collapse,
+  .navbar-light .navbar-collapse {
     background-color: transparent;
   }
 }
