@@ -3,23 +3,52 @@ export const QUIZZES = [
         "category": "general",
         "questions": [
             {
-                "question": "What am I?",
+                "question": "I am interested in:",
                 "type": "checkbox",
                 "answers": [
-                    "Angelyne",
-                    "Justin",
-                    "Starleen",
-                    "Tung"
+                    "Business",
+                    "Computer Science",
+                    "Medicine",
+                    "None of These"
                 ]
             },
             {
-                "question": "What do I do?",
-                "type": "radio",
+                "question": "I am interested in:",
+                "type": "checkbox",
+                "answers": [
+                    "Art",
+                    "Engineering",
+                    "Social Science",
+                    "None of These"
+                ]
+            },
+            {
+                "question": "I am interested in:",
+                "type": "checkbox",
                 "answers": [
                     "Design",
-                    "Project Management",
-                    "Software Engineering",
-                    "Burying myself in sorrow"
+                    "English or Literature",
+                    "Biological/Environmental Science",
+                    "None of These"
+                ]
+            },
+            {
+                "question": "I am interested in:",
+                "type": "checkbox",
+                "answers": [
+                    "Math",
+                    "Physical Science",
+                    "None of These"
+                ]
+            },
+            {
+                "question": "What is your academic year?",
+                "type": "radio",
+                "answers": [
+                    "Freshman",
+                    "Sophomore",
+                    "Junior",
+                    "Senior"
                 ]
             }
         ]
