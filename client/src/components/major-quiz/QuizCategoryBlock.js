@@ -7,6 +7,7 @@ const QuizCategoryBlock = (props) => {
         category,
         className,
         float,
+        full,
         link
     } = props;
 
@@ -16,7 +17,7 @@ const QuizCategoryBlock = (props) => {
         <div className={`d-inline-block px-0 pt-2 pb-3 ${className}`}>
             <RRNavLink className="icon" to={`/major-quiz/${thisLink}`}>    
                 <div 
-                    className={`${float ? "col-md-11" : "col-12"} py-4 text-black shadow-br ` +
+                    className={`${full ? "col-12" : "col-md-11"} py-4 text-black shadow-br ` +
                         `border border-1 border-theme-light text-center clearfix ${float}`}>
                     {category}
                 </div>

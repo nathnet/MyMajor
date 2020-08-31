@@ -53,7 +53,7 @@ class Footer extends Component {
                     <div className="text-center text-sm-left clearfix" style={{}}>
                         <div className="d-sm-inline-block float-sm-right">
                             <div className="text-center text-sm-right">
-                                <a href="https://www.twitter.com">
+                                <a href="https://twitter.com/MyMajorHT1">
                                     <span className="text-hide">Twitter</span>
                                     <SvgIcon component={Twitter} fontSize="large" className="mx-2 icon text-white" />
                                 </a>
@@ -61,7 +61,7 @@ class Footer extends Component {
                                     <span className="text-hide">Instagram</span>
                                     <SvgIcon component={Instagram} fontSize="large" className="mx-2 icon text-white" />
                                 </a>
-                                <a href="https://www.facebook.com">
+                                <a href="https://www.facebook.com/MyMajor-109627254200104">
                                     <span className="text-hide">Facebook</span>
                                     <SvgIcon component={Facebook} fontSize="large" className="mx-2 icon text-white" />
                                 </a>

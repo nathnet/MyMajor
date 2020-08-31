@@ -31,8 +31,8 @@ class MajorSpecificsScreen extends Component {
             <React.Fragment>
                 <NavWithBanner
                     bannerTitle={major.major}
-                    bgImg="../assets/React-icon.png" />
-                <div className="row col-11 col-lg-10 mx-auto">
+                    bgImg="../assets/pexels-lumn-327882.jpg" />
+                <div className="row col-11 col-xl-10 mx-auto">
                     <div className="col-12 col-md-6 col-lg-5 ml-lg-auto">
                         <MajorDetails heading="Prerequisites" content={prereqs} />
                         <MajorDetails heading="Potential Career Paths" content={careerPaths} />

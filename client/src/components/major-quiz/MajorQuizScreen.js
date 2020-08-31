@@ -10,7 +10,7 @@ class MajorQuizScreen extends Component {
             <React.Fragment>
                 <NavWithBanner
                     bannerTitle="Major Quiz"
-                    bgImg="./assets/React-icon.png" />
+                    bgImg="../../assets/pexels-startup-stock-photos-212286.jpg" />
                 <PageIntro
                     heading="Helping You Find Your Major"
                     content="Share a little bit about yourself and let our quiz find what majors 
@@ -22,50 +22,52 @@ class MajorQuizScreen extends Component {
                 <div className="my-4 h2 text-theme text-center">
                     I am most interested in:
                 </div>
-                <div className="col-11 col-lg-10 h3 py-2 my-4 mx-auto">
+                <div className="col-11 col-lg-10 h3 py-2 mt-4 mb-5 mx-auto">
                     <QuizCategoryBlock
                         category="The Arts"
                         className="col-12 col-md-6"
-                        float="float-md-left"/>
+                        float="float-left"/>
                     <QuizCategoryBlock
                         category="Biological and Environmental Sciences"
                         className="col-12 col-md-6"
-                        float="float-md-right"/>
+                        float="float-right"/>
                     <QuizCategoryBlock
                         category="Business"
                         className="col-12 col-md-6"
-                        float="float-md-left"/>
+                        float="float-left"/>
                     <QuizCategoryBlock
                         category="Computing"
                         className="col-12 col-md-6"
-                        float="float-md-right"/>
+                        float="float-right"/>
                     <QuizCategoryBlock
                         category="Engineering"
                         className="col-12 col-md-6"
-                        float="float-md-left"/>
+                        float="float-left"/>
                     <QuizCategoryBlock
                         category="Health Sciences"
                         className="col-12 col-md-6"
-                        float="float-md-right"/>
+                        float="float-right"/>
                     <QuizCategoryBlock
                         category="Language and Literature"
                         className="col-12 col-md-6"
-                        float="float-md-left"/>
+                        float="float-left"/>
                     <QuizCategoryBlock
                         category="Math"
                         className="col-12 col-md-6"
-                        float="float-md-right"/>
+                        float="float-right"/>
                     <QuizCategoryBlock
                         category="Physical Sciences"
                         className="col-12 col-md-6"
-                        float="float-md-left"/>
+                        float="float-left"/>
                     <QuizCategoryBlock
                         category="Social Sciences"
                         className="col-12 col-md-6"
-                        float="float-md-right"/>
+                        float="float-right"/>
                     <QuizCategoryBlock
                         category="I'm not sure"
                         className="col-12"
+                        float="float-left"
+                        full={true}
                         link="general"/>
                 </div>
             </React.Fragment>

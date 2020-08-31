@@ -31,10 +31,9 @@ class NavWithBanner extends Component {
     }
 
     render() {
-
         return (
             <div 
-                className="vh-75 mb-5 bg-no-repeat bg-center position-relative" 
+                className="vh-75 mb-5 bg-no-repeat bg-center bg-fit position-relative" 
                 style={{ backgroundImage: `url(${this.state.bgImg})` }}>
                 <div 
                     className="vh-75 mb-5" 

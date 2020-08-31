@@ -551,24 +551,38 @@ export const MAJOR_SPECIFICS = [
         "category": [
             "Physical Sciences"
         ],
+        "options": [
+            "capacityConstrained"
+        ],
         "prereqs": {
-            "announcement": "",
-            "minGPA": "",
-            "personalStatement": "",
-            "transcript": "",
-            "classes": ""
+            "announcement": "Applications deadline: 4:00 p.m. on the second Friday of October and April. For Biochemistry, intended students may apply for the regular, research, or honors pathway. For the research/honors pathway, see specific pathway requirements.",
+            "minGPA": "2.5(B.S.) or 2.0(B.A.)",
+            "personalStatement": "Required",
+            "transcript": "Required",
+            "classes": "For the B.S.: Chem 142, 152, 162 or Chem 143, 153, or Chem 145, 155, 165, Chem 237, 238 or Chem 335, 336, Math 124, 125 or 134, 135, and Biol 180, 200. For the B.A.: Chem 142, 152, 162 or Chem 143, 153, or Chem 145, 155, 165, Chem 237, 238 or Chem 335, 336, Math 124, 125 or 134, 135, and Biol 180, 200."
         },
         "careers": [
-            "",
-            ""
+            "Biochemist",
+            "Researcher",
+            "Biotechnologist",
+            "Clinical Scientist",
+            "Medicinal Chemist",
+            "Biomedical Scientist",
+            "Analytical Chemist",
+            "Forensic Scientist",
+            "Data Scientist",
+            "Ecologist",
+            "Pharmacist",
+            "Doctor",
+            "Research Assistant",
         ],
         "classInfo": {
             "averageDifficulty": "",
             "averageGPA": ""
         },
         "studentDetails": {
-            "undergrad": "",
-            "doctoral": ""
+            "undergrad": "723",
+            "doctoral": "50"
         },
         "faculty": {
             "studentRatio": "",
@@ -581,8 +595,13 @@ export const MAJOR_SPECIFICS = [
             "EmeritusFaculty": ""
         },
         "relStudies": [
-            "",
-            ""
+            "Computer Engineering",
+            "Chemistry",
+            "Earth and Space Sciences",
+            "Oceanography",
+            "Physics",
+            "Astronomy",
+            "Atmospheric Sciences",
         ]
     },
     {
@@ -708,24 +727,34 @@ export const MAJOR_SPECIFICS = [
             "Business",
             "Computing"
         ],
+        "options": [
+            "capacityConstrained"
+        ],
         "prereqs": {
-            "announcement": "",
-            "minGPA": "",
-            "personalStatement": "",
-            "transcript": "",
-            "classes": ""
+            "announcement": "Admission Deadline: April 5 for Autumn/Summer quarter and October 5 for Winter quarter.",
+            "minGPA": "2.5",
+            "personalStatement": "Required",
+            "writingSkillsAssessment": "3",
+            "transcript": "Required",
+            "classes": "MATH 112 or 124, ACCTG 215, ECON 200, and a college level English Composition(C) course."
         },
         "careers": [
-            "",
-            ""
+            "Entrepreneur",
+            "Marketing Manager",
+            "Training and Development Specialist",
+            "Chief Executive Officer",
+            "Bookkeeper",
+            "Supply Chain Manager",
+            "Human Resources Manager",
+            "Retailer"
         ],
         "classInfo": {
             "averageDifficulty": "",
             "averageGPA": ""
         },
         "studentDetails": {
-            "undergrad": "",
-            "doctoral": ""
+            "undergrad": "550-650",
+            "doctoral": "117"
         },
         "faculty": {
             "studentRatio": "",
@@ -738,8 +767,13 @@ export const MAJOR_SPECIFICS = [
             "EmeritusFaculty": ""
         },
         "relStudies": [
-            "",
-            ""
+            "International Studies",
+            "Economics",
+            "Statistics",
+            "Mathematics",
+            "Communication",
+            "Construction Management",
+            "Professional Sales Certificate Program",
         ]
     },
     {
@@ -1059,6 +1093,9 @@ export const MAJOR_SPECIFICS = [
         "category": [
             "Social Sciences"
         ],
+        "options": [
+            "capacityConstrained"
+        ],
         "prereqs": {
             "announcement": "Admission Deadline: 5:00 PM, two weeks (14 calendar days) after the first day of the quarter.",
             "minPreReqGPA": "2.5",
@@ -1319,6 +1356,9 @@ export const MAJOR_SPECIFICS = [
             "Computing",
             "Engineering"
         ],
+        "options": [
+            "capacityConstrained"
+        ],
         "prereqs": {
             "announcement": "",
             "minGPA": "",
@@ -1359,26 +1399,32 @@ export const MAJOR_SPECIFICS = [
             "Computing"
         ],
         "options": [
-
+            "capacityConstrained"
         ],
         "prereqs": {
-            "announcement": "",
-            "minGPA": "",
-            "personalStatement": "",
-            "transcript": "",
-            "classes": ""
+            "announcement": "Admission Deadline: July 1 for Autumn quarter and January 15 for Spring quarter. CAUTION: Due to demand, UW's School of CSE has now shifted to a mainly Direct Admit (DA) system; this means applicants who were not direct admit students will have an even lower chance of getting in than before.",
+            "minGPA": "2.0",
+            "personalStatement": "Required",
+            "transcript": "Required",
+            "classes": "MATH 124, 125, and 126, at least 5 credits of natural science including BIO 180, PHY 121, CHEM 142, CHEM 145, or any approved science course that requires PHY 121 or CHEM 142/145 as a prerequisite, CSE 142 & 143, and 5 credits of English Composition (C)."
         },
         "careers": [
-            "",
-            ""
+            "Computer Scientist",
+            "Data Scientist",
+            "Software Engineer",
+            "Web Developer",
+            "Business Analyst",
+            "Database Administrator",
+            "User Interface Designer",
+            "Information Technology Specialist",
         ],
         "classInfo": {
             "averageDifficulty": "",
             "averageGPA": ""
         },
         "studentDetails": {
-            "undergrad": "",
-            "doctoral": ""
+            "undergrad": "1213",
+            "doctoral": "281"
         },
         "faculty": {
             "studentRatio": "",
@@ -1391,8 +1437,21 @@ export const MAJOR_SPECIFICS = [
             "EmeritusFaculty": ""
         },
         "relStudies": [
-            "",
-            ""
+            "Computer Engineering",
+            "Informatics",
+            "Human Centered Design and Engineering",
+            "Mathematics",
+            "Statistics",
+            "Mechanical Engineering",
+            "Bioengineering",
+            "Electrical Engineering",
+            "Industrial Engineering",
+            "Environmental Engineering",
+            "Materials Science and Engineering",
+            "Civil Engineering",
+            "Chemical Engineering",
+            "Bioresource Science and Engineering",
+            "Aeronautics and Astronautics"
         ]
     },
     {
@@ -3828,23 +3887,32 @@ export const MAJOR_SPECIFICS = [
         "category": [
             "Social Sciences"
         ],
+        "options": [
+            "capacityConstrained",
+            "minorAvailable"
+        ],
         "prereqs": {
-            "announcement": "",
-            "minGPA": "",
-            "personalStatement": "",
-            "transcript": "",
-            "classes": ""
+            "announcement": "Admission deadline: 2nd Sunday of each quarter.",
+            "minGPA": "2.0",
+            "personalStatement": "Required",
+            "transcript": "Required",
+            "classes": "POL S 101, 201, 202, 203, 204, 205, or approved equivalent."
         },
         "careers": [
-            "",
-            ""
+            "Lobbyist",
+            "Lawyer",
+            "Diplomat/Foreign Service Officer",
+            "Professor",
+            "Business Executive",
+            "Political Consultant",
+            "Government Official",
         ],
         "classInfo": {
             "averageDifficulty": "",
             "averageGPA": ""
         },
         "studentDetails": {
-            "undergrad": "",
+            "undergrad": "653",
             "doctoral": ""
         },
         "faculty": {
@@ -3858,8 +3926,16 @@ export const MAJOR_SPECIFICS = [
             "EmeritusFaculty": ""
         },
         "relStudies": [
-            "",
-            ""
+            "Sociology",
+            "Communication",
+            "International Studies",
+            "Anthropology",
+            "American Ethnic Studies",
+            "Integrated Social Sciences",
+            "Law, Societies, and Justice",
+            "Philosophy",
+            "Social Welfare",
+            "Gender, Women, and Sexuality Studies"
         ]
     },
     {

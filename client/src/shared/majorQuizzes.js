@@ -6,7 +6,7 @@ export const QUIZZES = [
                 "question": "What am I?",
                 "type": "checkbox",
                 "answers": [
-                    "Angelime",
+                    "Angelyne",
                     "Justin",
                     "Starleen",
                     "Tung"

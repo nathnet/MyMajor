@@ -17,7 +17,7 @@ class SpecificQuizScreen extends Component {
             <React.Fragment>
                 <NavWithBanner
                     bannerTitle="Major Quiz"
-                    bgImg="../assets/React-icon.png" />
+                    bgImg="../../assets/pexels-startup-stock-photos-212286.jpg" />
                 <PageIntro
                     heading="Helping You Find Your Major"
                     content="Share a little bit about yourself and let our quiz find what majors 

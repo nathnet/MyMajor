@@ -56,7 +56,7 @@ class MajorsListScreen extends Component {
             <React.Fragment>
                 <NavWithBanner
                     bannerTitle="Majors List"
-                    bgImg="./assets/React-icon.png" />
+                    bgImg="./assets/pexels-lumn-327882.jpg" />
                 <PageIntro
                     heading="All Your Options in One Place"
                     content="At UW, the major is your first step into a boundless career. 

@@ -1,3 +1,19 @@
+body {
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  body {
+    line-height: 1.35;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    line-height: 1.5;
+  }
+}
+
 /* Primary purple color */
 .bg-theme {
   background-color: #503C93 !important;
@@ -33,13 +49,13 @@
 
 @media (min-width: 992px) {
   .logo-lg {
-    height: 120px;
+    height: 90px;
   }
 }
 
 @media (min-width: 1200px) {
   .logo-xl {
-    height: 150px;
+    height: 100px;
   }
 }
 
@@ -86,6 +102,10 @@
     height: 5em;
     width: auto;
   }
+}
+
+.MuiSvgIcon-fontSizeExtraLarge {
+  font-size: 2.5rem !important;
 }
 
 .text-circle {
@@ -137,6 +157,10 @@
   .font-size-background {
     font-size: 21vw !important;
   }
+}
+
+.word-break {
+  word-break: break-word !important;
 }
 
 .custom-control-label-quiz label {

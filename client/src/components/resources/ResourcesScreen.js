@@ -19,7 +19,7 @@ class ResourcesScreen extends Component {
             <React.Fragment>
                 <NavWithBanner
                     bannerTitle="Resources"
-                    bgImg="../assets/React-icon.png" />
+                    bgImg="../assets/pexels-pixabay-256541.jpg" />
                 <PageIntro 
                     heading="Everything You Need"
                     content="Whether it be financial, academic, or mental assistance that 
@@ -29,38 +29,38 @@ class ResourcesScreen extends Component {
                 <div className="d-flex col-11 col-lg-10 mx-auto mb-5 flex-wrap justify-content-between">
                     <ResourceCard
                         className="col-12 col-sm-5 col-md-3"
-                        image="./assets/React-icon.png"
+                        image="./assets/icon1.png"
                         list={list.scholarships}
                         name="scholarships"
                         title="SCHOLARSHIPS" />
                     <ResourceCard
                         className="col-12 col-sm-5 col-md-3"
-                        image="./assets/React-icon.png"
+                        image="./assets/icon2.png"
                         list={list.academics}
                         name="academics"
                         title="ACADEMICS" /> 
                     <ResourceCard
                         className="col-12 col-sm-5 col-md-3"
-                        image="./assets/React-icon.png"
+                        image="./assets/icon3.png"
                         list={list.jobsAndInterns}
                         name="jobsAndInterns"
                         title="JOBS / INTERNSHIPS" />
                     <div className="d-none d-md-block col-12" />
                     <ResourceCard
                         className="col-12 col-sm-5 col-md-3"
-                        image="./assets/React-icon.png"
+                        image="./assets/icon4.png"
                         list={list.greekLife}
                         name="greekLife"
                         title="GREEK LIFE" />
                     <ResourceCard
                         className="col-12 col-sm-5 col-md-3"
-                        image="./assets/React-icon.png"
+                        image="./assets/icon5.png"
                         list={list.sportsAndRec}
                         name="sportsAndRec"
                         title="SPORTS AND RECREATIONS" />
                     <ResourceCard
                         className="col-12 col-sm-5 col-md-3"
-                        image="./assets/React-icon.png"
+                        image="./assets/icon6.png"
                         list={list.clubsAndEvents}
                         name="clubsAndEvents"
                         title="CLUBS AND EVENTS" />

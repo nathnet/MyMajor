@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { SvgIcon } from '@material-ui/core';
-import { AttachMoney } from '@material-ui/icons';
+import { ReactComponent as HumanIcon } from '../../assets/human.svg';
         
 class Faculty extends Component {
 
@@ -16,14 +16,14 @@ class Faculty extends Component {
         const items = [];
 
         for (let i = 0; i < this.state.content.studentRatio; i++) {
-            items.push(<SvgIcon component={AttachMoney} fontSize="large" />)
+            items.push(<SvgIcon component={HumanIcon} viewBox="0 0 547 800" className="MuiSvgIcon-fontSizeExtraLarge" />)
         }
 
         return (
             <div className="col mx-auto py-2">
                 <div>
                     <div className="d-inline-block col-4 px-0">
-                        <SvgIcon component={AttachMoney} fontSize="large" className="w-100 h-100" />
+                        <SvgIcon component={HumanIcon} viewBox="0 0 547 800" className="w-100 h-100" />
                     </div>
                     <div className="d-inline-block col-8 px-0 align-middle">
                         {items}  

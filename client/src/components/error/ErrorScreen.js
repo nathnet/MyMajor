@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import TopNavbar from '../shared/TopNavbar';
-import errorImage from '../../assets/404_background.jpg';
         
 class ResourcesScreen extends Component {
 
@@ -9,7 +8,7 @@ class ResourcesScreen extends Component {
         return (
             <React.Fragment>
                 <TopNavbar bgColor="#FFF" dark={false} />
-                <div className="bg-fit bg-position-bottom" style={{backgroundImage: `url(${errorImage})`}}>
+                <div className="bg-fit bg-position-bottom" style={{backgroundImage: `url(${require("../../assets/404_background.jpg")})`}}>
                     <div className="d-inline-block col-12 col-md-6 p-0 h-100 align-middle">
                         <img 
                             className="w-100 pb-md-5 mb-lg-2 mb-xl-4" 

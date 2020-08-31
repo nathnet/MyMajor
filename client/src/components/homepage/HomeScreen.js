@@ -17,7 +17,7 @@ class HomeScreen extends Component {
                         is right for you."
                     bannerHeading="Let us help you."
                     bannerTitle="Finding your Major Can be Tough"
-                    bgImg="./assets/React-icon.png" />    
+                    bgImg="./assets/Aerial-campus1.jpg" />    
                 <DescriptionBlock 
                     heading="We get it." 
                     content="Knowing what classes to take and what career to pursue can be hard.
@@ -29,7 +29,7 @@ class HomeScreen extends Component {
                 <div className="container">
                     <RRNavLink className="icon" to="/major-quiz">
                         <ContentCard 
-                            image="./assets/React-icon.png"
+                            image="./assets/3f79d05df2e2167bbc76b816e4d32ff9.jpg"
                             title="Take Our Majors Quiz"
                             heading="Don't know where to start?" 
                             description="Our major quiz can give you a helping hand on finding out what 
