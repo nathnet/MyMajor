@@ -40,7 +40,7 @@ class HomeScreen extends Component {
                     <div className="d-inline-block col-2"></div>
                     <RRNavLink className="icon" to="/resources">
                         <ContentCard 
-                            image="./assets/Logos-FeatureImage.png"
+                            image="./assets/pexels-pixabay-265076.jpg"
                             title="Class Resources"
                             heading="Looking for opportunities and help for the quarter?"
                             description="In our class resources page, find notes, areas, and 

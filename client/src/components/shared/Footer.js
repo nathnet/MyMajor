@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavItem, NavLink, Navbar, Nav } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
 import { SvgIcon } from '@material-ui/core';
-import { Facebook, Instagram, Twitter } from '@material-ui/icons';
+import { Facebook, Instagram, LinkedIn, Twitter } from '@material-ui/icons';
 
 class Footer extends Component {
 
@@ -56,6 +56,10 @@ class Footer extends Component {
                                 <a href="https://twitter.com/MyMajorHT1">
                                     <span className="text-hide">Twitter</span>
                                     <SvgIcon component={Twitter} fontSize="large" className="mx-2 icon text-white" />
+                                </a>
+                                <a href="https://www.linkedin.com/company/mymajorht">
+                                    <span className="text-hide">LinkedIn</span>
+                                    <SvgIcon component={LinkedIn} fontSize="large" className="mx-2 icon text-white" />
                                 </a>
                                 <a href="https://www.instagram.com/mymajorht">
                                     <span className="text-hide">Instagram</span>
